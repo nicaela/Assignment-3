@@ -1,0 +1,237 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.pageNav a:link {
+  color: #f9e42e;
+  text-decoration: none;
+}
+
+.pageNav a:visited {
+  color: #f9e42e;
+}
+
+.pageNav a:hover {
+  color: #f9e42e;
+}
+
+.pageNav a:active {
+  color: #f9e42e;
+}
+
+
+header {
+  background-color: #033048;
+  display: flex;
+  width: 100%;
+}
+
+.logo {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 20px;
+  color: white;
+}
+
+.pageNav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+header ul {
+  display: flex;
+  justify-content: flex-end;
+  color: #f9e42e;
+}
+
+.pageNav ul li {
+  color: #f9e42e;
+  text-decoration: none; 
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.mainPage {
+  background-color: #f0efef;
+  display: flex;
+}
+
+.blogDisplay {
+  margin: 20px;
+  margin-left: 100px;
+  width: 700px;
+}
+
+.blogPost {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #606161;
+}
+
+.blogPost h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #033048;
+  padding: 10px;
+}
+
+.startOfBlog {
+  float: left;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.blogPost p {
+  font-size: 15px;
+  font-weight: 300;
+  color: #606161;
+  flex-wrap: wrap;
+  padding: 20px;
+  line-height: 1.5;
+}
+
+.blogPost h3 {
+  text-decoration: none;
+  text-align: right;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.blogPost a:link {
+  color: #033048;
+  text-decoration: none;
+}
+
+.blogPost a:visited {
+  color: #033048;
+}
+
+.blogPost a:hover {
+  color: #033048;
+}
+
+.blogPost a:active {
+  color: #033048;
+}
+
+.sideBar {
+  margin: 20px;
+  width: 240px;
+}
+
+.sideBar h2 {
+  font-size: 24px;
+  font-weight: 800;
+  color: #033048;
+  margin-bottom: 15px;
+}
+
+.Categories {
+  padding: 20px;
+}
+
+.Categories ul li {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 300;
+  color: #033048;
+}
+
+.Categories a:link {
+  color: #033048;
+  text-decoration: none;
+}
+
+.Categories a:visited {
+  color: #033048;
+}
+
+.Categories a:hover {
+  color: #033048;
+}
+
+.Categories a:active {
+  color: #033048;
+}
+
+
+.AboutRelaxr {
+  padding: 20px;
+}
+
+.AboutRelaxr p {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 300;
+  color: #033048;
+}
+
+.AboutRelaxr h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.AboutRelaxr h3 a:link {
+  color: #033048;
+  text-decoration: none;
+}
+
+.AboutRelaxr h3 a:visited {
+  color: #033048;
+}
+
+.AboutRelaxr h3 a:hover {
+  color: #033048;
+}
+
+.AboutRelaxr h3 a:active {
+  color: #033048;
+}
+
+.SignUp {
+  text-align: center; 
+  background-color: #f9e42e;
+  height: 150px;
+  width: auto;
+}
+
+.SignUp button {
+  width: 150px;
+  padding: 20px;
+  border-radius: 5px;
+  font-weight: 800;
+  background-color: #f9e42e;
+  margin:50px;
+  background-color: #033048;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 800;
+  background-color:#121212;
+  height: 250px;
+  margin: 0;
+  margin-bottom: 0;
+}
+
+footer h4 {
+  color: #f9e42e;
+  padding: 30px;
+}
+
+footer ul li {
+  display: inline-block;
+  text-align: center;
+  padding-bottom: 40px;
+  
+}
+
+footer p {
+  font-size: 9px;
+  font-weight: 600;
+  color: white;
+}
